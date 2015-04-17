@@ -121,7 +121,7 @@ public abstract class SpaceNavigator : IDisposable {
 				switch (Application.platform) {
 					case RuntimePlatform.OSXEditor:
 					case RuntimePlatform.OSXPlayer:
-						_instance = SpaceNavigatorMac.SubInstance;
+						_instance = SpaceNavigatorOSX.SubInstance;
 						break;
 					case RuntimePlatform.WindowsEditor:
 					case RuntimePlatform.WindowsPlayer:
